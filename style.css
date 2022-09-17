@@ -1,0 +1,277 @@
+/*CABEÇALHO*/
+header{
+    font-family: 'Titillium Web', sans-serif;
+    background-color:rgb(0, 0, 0);
+    width:auto;
+}
+
+.logo{
+    width:15%;
+    left:auto;
+    margin-left:70px;
+    padding-left:15px;
+}
+
+.cabecalho{
+    margin:0 auto;
+}
+
+b{
+    font-weight:bolder;
+}
+
+/*ITENS DO CABEÇALHO*/
+
+nav{
+    position:absolute;
+    top:24px;
+    right:150px;
+}
+
+nav ul{
+    
+
+}
+
+.home{
+    margin-right:5px;
+}
+
+nav li{
+    display:inline;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+nav a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    transition:0.2s all;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border:hidden;
+    padding:0 0 0 0;
+    font-style:bold;
+}
+
+nav a:hover{
+    border-style:solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    transform:scale(0,10)
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/*MEIO*/
+.caixa{
+    position:relative;
+
+}
+
+.imagem_do_meio{
+    width:100%;
+}
+
+.meiotextos{
+    position:absolute;
+    top:150px;
+    left:180px;
+    background:white;
+    border-radius:10px;
+
+}
+
+.texto{
+    font-weight:300;
+    color:rgb(0, 0, 0);
+    font-size:60px;
+    padding:30px;
+    padding-bottom: 10px;
+}
+
+.texto2{
+    color:rgb(0, 0, 0);
+    font-size:16px;
+    padding:30px;
+    padding-left:30px;
+}
+
+.imagem2{
+    border-radius: 5%;
+}
+
+/*A GENTE NÃO PARA DE CRESCER <<<<!SECTION 2!>>>>*/
+.section_dois{
+    display: inline;
+}
+
+.section_dois img{
+    position:relative;
+    width:20%;
+    left: 900px;
+    padding-top:160px;
+    padding-bottom:160px;
+}
+
+.titulo_s2{
+    position:absolute;
+    top:1080px;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 70px;
+}
+
+.subtitulo_s2{
+    position:absolute;
+    top:1120px;
+    margin-left:500px;
+    letter-spacing: 2.5px;
+    text-align:left;
+    text-align:justify;
+    margin-right:200px;
+    padding-right:100px;
+}
+
+.paragrafo{
+    position:absolute;
+    top:1180px;
+    margin-left:500px;
+    letter-spacing: 2.5px;
+}
+/*PORQUE ESCOLHER A RAZOR??*/
+.section_tres{
+}
+
+.ico_s3{
+    vertical-align: middle;
+    width:5%;
+    padding-right:10px;
+    padding-bottom:5px;
+}
+
+.virtuos{
+    position:relative;
+    width:10%;
+    left: 900px;
+    padding-top:160px;
+    padding-bottom:160px;
+}
+
+.titulo_s3{
+    position:absolute;
+    top:1670px;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 70px;
+}
+
+.paragrafo_s3{
+    position:absolute;
+    top:1620px;
+    margin-left:500px;
+    letter-spacing: 2.5px;
+}
+
+
+/*MISSAO,VISAO E VALORES*/
+.metas{
+    margin:0px;
+    letter-spacing: 2.5px;
+}
+
+.metas ul{
+    margin:0px;
+}
+.metas li{
+    display:inline-block;
+    margin-left:30px;
+    margin-left:45px;
+    margin-top:30px;
+    margin-bottom:30px;
+    vertical-align:top;
+    font-size: 30px;
+}
+
+.metas h1{
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:5px;
+    font-weight:bolder;
+}
+    
+.metas p{
+    text-align:justify;
+    padding-top:15px;
+    font-size:13px;
+
+}
+
+.metas img{
+    width: 300px;
+    padding:10px;
+}
+
+
+
+/*RODAPÉ*/
+
+.rodape{
+    display:flex;
+    vertical-align: middle;
+}
+
+.texto_rodape{
+    letter-spacing: 2px;
+    margin-left:75px;
+    font-weight:inherit;
+
+}
+
+.texto_rodape h1{
+
+    margin-top:80px;
+    font-weight:bold;
+    letter-spacing: 2px;
+}
+
+.texto_rodape2{
+    letter-spacing: 2px;
+    margin-left:30px;
+}
+
+.texto_rodape2 h1{
+    margin-top:80px;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+.texto_rodape3{
+    letter-spacing: 2px;
+    margin-left:30px;
+    margin-top:80px;
+    color:#7116f2;
+    padding-bottom:10px;
+    padding-right:20px;
+}
+
+.linkrodape{
+    width:5%;
+}
+
+.razorltda{
+    margin:30px;
+    text-align:center;
+}
+
+/*LINHA ENTRE AS SECTIONS*/
+
+#linhazinha{
+    margin:0px;
+    padding:auto;
+}
